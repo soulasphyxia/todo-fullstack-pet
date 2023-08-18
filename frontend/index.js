@@ -17,7 +17,7 @@ let result;
 
 
 delete_list_btn.addEventListener("click", () => {
-    if(confirm("Вы уверены?")){
+    if(confirm("Are you sure?")){
         deleteList();
         location.reload();
     }
@@ -25,7 +25,7 @@ delete_list_btn.addEventListener("click", () => {
 
 
 add_list_ref.addEventListener("click", () => {
-    result = prompt("Введите имя листа","Новый лист");
+    result = prompt("Enter the list's name","New List");
     if(result !== null) {
         addList(result);
         location.reload();
