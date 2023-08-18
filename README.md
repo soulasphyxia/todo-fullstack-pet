@@ -1,4 +1,4 @@
-# TODO LIST Fullstack Pet-project
+# TODO LIST Fullstack Pet-Project
 Моя версия todo list приложения 
 ## Описание
 ### Frontend
@@ -17,6 +17,6 @@ Java 17 + Spring Boot + PostgreSQL
 - Удаление задач на странице листа
 - Зачеркивание выполненных задач (аналог проставления галочки)
 
-Скриншот веб-приложения
+Скриншот веб-приложения:
 ![image](https://github.com/soulasphyxia/todo-fullstack-pet/assets/98162330/45cab96b-5fcd-4d6c-8b4c-cb1e44dce943)
 
