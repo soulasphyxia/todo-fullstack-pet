@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>TODO List</title>
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <a href="#" id="add-list">Add new list</a>
+        <div class="lists"></div>
+      </div>
+      <div id="main">
+        <button class="openbtn">&#9776;</button>
+      </div>
+    <input type="text" class="list-name"></input>
+    <div class="app">
+        <div class="task-container">
+            <div class="add-task">
+                <input type="text" id="input" placeholder="Enter the task">
+                <button class="add-task-btn">+</button>
+            </div>
+            <ul class="task-list"></ul>
+            <i class="fa-solid fa-trash"></i>
+        </div>
+    </div>
+</body>
+
+<script type="module" src="index.js"></script>
+<script src="https://kit.fontawesome.com/18e2c554d3.js" crossorigin="anonymous"></script>
+
+</html>
